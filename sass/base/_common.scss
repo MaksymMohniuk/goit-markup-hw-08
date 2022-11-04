@@ -1,0 +1,18 @@
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--text-color-primary);
+  }
+
+  button {
+    cursor: pointer;
+  }

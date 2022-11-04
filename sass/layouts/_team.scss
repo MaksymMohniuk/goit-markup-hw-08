@@ -1,0 +1,58 @@
+
+.team {
+    background-color: #f5f4fa;
+    padding: 94px 0;
+  }
+  
+  .team-section-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .list-item {
+    background-color: #ffffff;
+    flex-basis: calc(100% - 90px / 4);
+  }
+  
+  .employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .employee-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--text-color-secondary);
+  }
+  
+  .team-section-list-wrapper-one {
+  padding: 30px 0;
+  text-align: center;
+  padding-bottom: 16px;
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  .team-section-list-wrapper-two {
+  padding: 30px 0;
+  text-align: center;
+  padding-bottom: 16px;
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  .team-section-list-wrapper-three {
+    padding: 30px 0;
+    text-align: center;
+    padding-bottom: 16px;
+    box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  .team-section-list-wrapper-four {
+    padding: 30px 0;
+    text-align: center;
+    padding-bottom: 16px;
+    box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
