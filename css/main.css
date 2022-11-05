@@ -601,14 +601,6 @@ button {
   padding-bottom: 94px;
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .section-title-list {
   display: flex;
   gap: 30px;
@@ -667,17 +659,46 @@ button {
 
 .team {
   background-color: #f5f4fa;
-  padding: 94px 0;
+  padding: 60px 0;
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    padding: 94px 0;
+  }
 }
 
 .team-section-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .list-item {
   background-color: #ffffff;
-  flex-basis: calc(100% - 22.5px);
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .employee-name {
@@ -696,31 +717,55 @@ button {
 }
 
 .team-section-list-wrapper-one {
-  padding: 30px 0;
+  padding: 24px 0;
   text-align: center;
   padding-bottom: 16px;
   box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 0px 0px 4px 4px;
+}
+@media screen and (min-width: 1200px) {
+  .team-section-list-wrapper-one {
+    padding: 30px 0;
+  }
 }
 
 .team-section-list-wrapper-two {
-  padding: 30px 0;
+  padding: 24px 0;
   text-align: center;
   padding-bottom: 16px;
   box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 0px 0px 4px 4px;
+}
+@media screen and (min-width: 1200px) {
+  .team-section-list-wrapper-two {
+    padding: 30px 0;
+  }
 }
 
 .team-section-list-wrapper-three {
-  padding: 30px 0;
+  padding: 24px 0;
   text-align: center;
   padding-bottom: 16px;
   box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 0px 0px 4px 4px;
+}
+@media screen and (min-width: 1200px) {
+  .team-section-list-wrapper-three {
+    padding: 30px 0;
+  }
 }
 
 .team-section-list-wrapper-four {
-  padding: 30px 0;
+  padding: 24px 0;
   text-align: center;
   padding-bottom: 16px;
   box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 0px 0px 4px 4px;
+}
+@media screen and (min-width: 1200px) {
+  .team-section-list-wrapper-four {
+    padding: 30px 0;
+  }
 }
 
 .clients {
