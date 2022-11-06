@@ -45,7 +45,6 @@ ul, ol {
 
 img {
   display: block;
-  width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -600,6 +599,11 @@ button {
 .we-work {
   padding-bottom: 94px;
 }
+@media screen and (max-width: 1199px) {
+  .we-work {
+    display: none;
+  }
+}
 
 .section-title-list {
   display: flex;
@@ -769,11 +773,16 @@ button {
 }
 
 .clients {
-  padding: 94px 0;
+  padding: 60px 0;
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding: 94px 0;
+  }
 }
 
 .clients-list-link {
-  width: 170px;
+  width: 100%;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
@@ -787,10 +796,37 @@ button {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
+@media screen and (min-width: 480px) {
+  .clients-list-link {
+    width: 210px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients-list-link {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-list-link {
+    width: 170px;
+  }
+}
 
 .clients-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .clients-list-item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients-list-item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
 }
 
 .clients-list-icon {
