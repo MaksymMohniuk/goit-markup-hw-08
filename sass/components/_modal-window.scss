@@ -92,6 +92,10 @@
     color: var(--main-text-color);
     margin-bottom: 12px;
 
+    @media screen and (max-width: 320px) {
+      width:300px;
+    }
+
     @media screen and (min-width: 480px) {
       font-size: 20px;
     }
@@ -132,6 +136,10 @@
       outline: transparent;
     }
 
+    @media screen and (max-width: 320px) {
+      width:300px;
+    }
+
     @media screen and (min-width: 1200px) {
       width: 448px;
     }
@@ -165,6 +173,10 @@
       color: rgba(117, 117, 117, 0.5);
       }
 
+      @media screen and (max-width: 320px) {
+        width:300px;
+      }
+
       @media screen and (min-width: 1200px) {
         width: 448px;
       }
@@ -173,7 +185,7 @@
         
     .policy-label {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 4vw;
     line-height: 1.16;
     color: var(--text-color-secondary);
     display: flex;
