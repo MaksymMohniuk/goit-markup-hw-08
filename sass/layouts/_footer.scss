@@ -15,6 +15,7 @@
 
 .address-wrap {
 margin-bottom: 60px;
+text-align: center;
 }
 
 .firm-address {
@@ -48,12 +49,17 @@ margin-bottom: 60px;
 margin-bottom: 60px;
 }
 
+.footer-social-item {
+  gap: 10px;
+}
+
 .footer-title {
 font-weight: 700;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--text-color-primary);
 margin-bottom: 20px;
+text-align: center;
 }
 
 .footer-social-link {
@@ -118,7 +124,7 @@ letter-spacing: 0.06em;
 color: var(--text-color-primary);
 width: 200px;
 height: 50px;
-margin-top: 20px;
+margin: 20px auto;
 background-color: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
