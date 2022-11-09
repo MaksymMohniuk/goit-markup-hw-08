@@ -930,6 +930,7 @@ button {
 
 .tablet-wrap {
   display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 767px) {
   .tablet-wrap {
@@ -941,6 +942,13 @@ button {
   .tablet-wrap {
     margin-left: 76px;
     justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .tablet-wrap {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
   }
 }
 

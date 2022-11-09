@@ -17,6 +17,7 @@
 
 .tablet-wrap {
   display: flex;
+  align-items: center;
 
   @media screen and (max-width:767px) {
     display: flex;
@@ -26,6 +27,12 @@
   @media screen and (min-width:768px) and (max-width:1199px) {
   margin-left: 76px;
   justify-content: space-between;
+  }
+
+  @media screen and (min-width:1200px) {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
   }
 }
 
