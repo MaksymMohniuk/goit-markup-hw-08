@@ -21,6 +21,22 @@
     border-bottom: 1px solid #ececec;
   }
 
-  .header__wrap {
+  .mob-header {
     display: flex;
+    align-items: center;
   }
+
+  .menu-open-btn {
+    margin-left: auto;
+    background-color:transparent;
+    border-color: transparent;
+  }
+
+  .menu-close-btn {
+    background-color:transparent;
+    border-color: transparent;
+  }
+
+  // .header__wrap {
+  //   display: flex;
+  // }

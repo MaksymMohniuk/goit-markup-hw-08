@@ -84,7 +84,7 @@ button {
   }
 }
 
-.logo {
+.logo, .logo-mob {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 5vw;
@@ -95,7 +95,7 @@ button {
   margin-right: 93px;
 }
 @media screen and (min-width: 1200px) {
-  .logo {
+  .logo, .logo-mob {
     font-size: 26px;
     line-height: 1.19;
   }
@@ -117,7 +117,7 @@ button {
 }
 
 .navigation {
-  display: flex;
+  display: none;
   align-items: center;
 }
 
@@ -141,7 +141,7 @@ button {
 }
 
 .contacts {
-  display: flex;
+  display: none;
   align-items: center;
   margin-left: auto;
   gap: 50px;
@@ -524,8 +524,20 @@ button {
   border-bottom: 1px solid #ececec;
 }
 
-.header__wrap {
+.mob-header {
   display: flex;
+  align-items: center;
+}
+
+.menu-open-btn {
+  margin-left: auto;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.menu-close-btn {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .hero,
