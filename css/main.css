@@ -339,16 +339,11 @@ button {
 
 .form-field-title {
   font-weight: 700;
-  font-size: 6vw;
+  font-size: 4vw;
   line-height: 1.5;
   text-align: center;
   color: var(--main-text-color);
   margin-bottom: 12px;
-}
-@media screen and (max-width: 320px) {
-  .form-field-title {
-    width: 300px;
-  }
 }
 @media screen and (min-width: 480px) {
   .form-field-title {
@@ -380,7 +375,7 @@ button {
 }
 
 .form-input {
-  width: 370px;
+  width: 96%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -391,23 +386,13 @@ button {
   border: 1px solid var(--accent-color);
   outline: transparent;
 }
-@media screen and (max-width: 320px) {
-  .form-input {
-    width: 300px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .form-input {
-    width: 448px;
-  }
-}
 
 .form-input:focus + .form-icon {
   fill: var(--accent-color);
 }
 
 .form-comment {
-  width: 370px;
+  width: 96%;
   height: 120px;
   display: block;
   margin-bottom: 20px;
@@ -443,24 +428,20 @@ button {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-@media screen and (max-width: 320px) {
-  .form-comment {
-    width: 300px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .form-comment {
-    width: 448px;
-  }
-}
 
 .policy-label {
   font-weight: 400;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 1.16;
   color: var(--text-color-secondary);
   display: flex;
   align-items: center;
+}
+@media screen and (min-width: 480px) {
+  .policy-label {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 }
 @media screen and (min-width: 1200px) {
   .policy-label {
@@ -937,7 +918,30 @@ button {
 .footer-container {
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+}
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.tablet-wrap {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .tablet-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .tablet-wrap {
+    margin-left: 76px;
+    justify-content: space-between;
+  }
 }
 
 .address-wrap {
@@ -1013,7 +1017,7 @@ button {
 }
 
 .mail-address {
-  width: 290px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -1039,7 +1043,7 @@ button {
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .mail-address {
     width: 450px;
   }
@@ -1071,6 +1075,23 @@ button {
 
 .footer-mail-icon {
   margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-mailing-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form {
+    display: flex;
+    gap: 12px;
+    align-items: baseline;
+  }
 }
 
 .btn-list {
