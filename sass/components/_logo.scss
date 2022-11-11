@@ -19,10 +19,24 @@
   }
   
   .footer-logo {
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
     display: inline-block;
     margin-bottom: 20px;
     padding: 0;
     margin-right: 0;
+
+    @media screen and (min-width:768px) {
+      font-size: 24px;
+    }
+
+    @media screen and (min-width:1200px) {
+      font-size: 26px;
+      line-height: 1.19;
+    }
   }
   
   .logo-wrap-footer {

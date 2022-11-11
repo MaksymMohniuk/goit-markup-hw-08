@@ -24,6 +24,10 @@
   .mob-header {
     display: flex;
     align-items: center;
+
+    @media screen and (min-width:481px) {
+    display: none;
+    }
   }
 
   .menu-open-btn {
@@ -37,6 +41,12 @@
     margin-left: auto;
     background-color:transparent;
     border-color: transparent;
+    &:hover,
+&:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+  cursor: pointer;
+}
   }
 
   .mob-menu {
@@ -109,7 +119,8 @@
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: #2196F3;
-    
+    text-decoration: none;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
   }
 
   .mob-social-links {
