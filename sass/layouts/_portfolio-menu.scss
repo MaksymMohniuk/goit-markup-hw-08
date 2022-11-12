@@ -1,7 +1,21 @@
 .btn-list {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
+  display: flex;
+  gap: 8px;
+  row-gap: 15px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+
+  @media screen and (min-width:768px) {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 30px;
+  }
+
+  @media screen and (min-width:1200px) {
+    margin-bottom: 50px;
+    }
   }
   
   .portfolio-btn {
