@@ -688,12 +688,11 @@ button {
   letter-spacing: 0.02em;
   color: #2196F3;
   text-decoration: none;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-  padding-right: 10px;
 }
 
-.mob-social-link-item:not(:last-child) {
-  border-right: none;
+.mob-social-link-wrap:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
 }
 
 .mob-social-links {
@@ -1109,16 +1108,16 @@ button {
   }
 }
 
-.tablet-wrap {
-  margin-bottom: 60px;
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .tablet-wrap {
+    margin-bottom: 60px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .tablet-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: baseline;
-    margin-left: 76px;
-    margin-right: 89px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1133,6 +1132,12 @@ button {
   .address-wrap {
     margin-bottom: 60px;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .social-links-wrap {
+    margin-left: 165px;
   }
 }
 
